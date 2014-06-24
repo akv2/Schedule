@@ -64,12 +64,23 @@ var app = {
 					
 					// Deal with new data
 					$.each(data.schedules, function (i, obj) {
-						var str = '<div class="item">' +
-							'<h2 class="title">' + obj.title + '</h2>' +
-							'<div class="content">' + obj.content + '</div>';
-						str += obj.original.length > 0 ? '<a href="' + obj.original + '" target="_blank">Original PDF</a>' : '';
-						str += '</div>';
-						$('#table').append( str );
+						var str = '<div data-role="page" id="page' + i + '">' +
+						'<div data-role="header">' +
+							'<h1>' + obj.title + '</h1>' +
+						'</div><!-- /header -->' +
+
+						'<div role="main" class="ui-content">' +
+							obj.content +
+							obj.original.length > 0 ? '<a href="' + obj.original + '" target="_blank">Original PDF</a>' : '' +
+						'</div><!-- /content -->' +
+
+						'<div data-role="footer">' +
+							'<h4>Page Footer</h4>' +
+						'</div><!-- /footer -->' +
+						'</div>';
+						
+						
+						$('#loaded').append( str );
 					});
 				}, 2000);
 				

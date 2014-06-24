@@ -296,3 +296,14 @@ You could find it at the following address https://developer.apple.com/icloud/do
 
 2014-06-18 13:11:02.451 Schedule[40264:70b] Resetting plugins due to page load.
 2014-06-18 13:11:02.550 Schedule[40264:70b] Finished load of: file:///Users/aaron/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/E84B2ED2-037B-4BC4-9376-FEE89E7B0166/Schedule.app/www/index.html
+2014-06-24 11:07:11.321 Schedule[20161:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-24 11:07:11.350 Schedule[20161:70b] Unlimited access to network resources
+2014-06-24 11:07:11.353 Schedule[20161:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-06-24 11:07:11.741 Schedule[20161:70b] Resetting plugins due to page load.
+2014-06-24 11:07:11.940 Schedule[20161:70b] Finished load of: file:///Users/aaron/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/E84B2ED2-037B-4BC4-9376-FEE89E7B0166/Schedule.app/www/index.html

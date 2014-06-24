@@ -64,7 +64,8 @@ var app = {
 					
 					// Deal with new data
 					$.each(data.schedules, function (i, obj) {
-						var str = '<div data-role="header">' +
+						var str = '<div data-role="page" id="page' + i + '">' +
+						'<div data-role="header">' +
 							'<h1>' + obj.title + '</h1>' +
 						'</div><!-- /header -->' +
 
@@ -75,7 +76,8 @@ var app = {
 
 						'<div data-role="footer">' +
 							'<h4>Page Footer</h4>' +
-						'</div><!-- /footer -->';
+						'</div><!-- /footer -->' +
+						'</div>';
 						
 						
 						$('#loaded').append( str );
